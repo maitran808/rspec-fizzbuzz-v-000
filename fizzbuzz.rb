@@ -1,9 +1,9 @@
-def fizzbuzz(int)
-  if (int % 3 == 0)
+def fizzbuzz(i)
+  if (i % 3 == 0)
     puts "Fizz"
-  elsif (int % 5 == 0)
+  elsif (i % 5 == 0)
     puts "Buzz"
-  elsif (int % 5 == 0) and (int % 3 == 0)
+  elsif (i % 5 == 0) && (i % 3 == 0)
     puts "FizzBuzz"
   else
     puts "nil"
